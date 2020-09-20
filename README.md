@@ -16,7 +16,7 @@ Once you run the main function, you can enter the player's name and start playin
 
 You can play the game n number of times before you choose to quit.
 
-##Note for players name
+## Note for players name
 
 Players name ---> a string with out any spaces
 
