@@ -16,9 +16,9 @@ public class RealPlayer {
         name = sc.next();
     }
 
+    //Get the player input
     public int getInput() {
-
-        // Selects among ROCK PAPER SCISSORS and returns the selected value
+        // Select among ROCK PAPER SCISSORS and returns the selected value
         System.out.println("Select \t r ---> ROCK \n\t\t p ---> PAPER \n\t\t s ---> SCISSOR");
 
         String input = sc.next();
@@ -40,7 +40,7 @@ public class RealPlayer {
     public boolean playAgain() {
         // This function will ask if the user wants to play again and return true or false accordingly.
         sc = new Scanner(System.in);
-        System.out.println("Do you want to play again? \t enter (y) if yes ");
+        System.out.println("Do you want to play again? \n\t enter (y) if yes  \n\t or any other character to exit");
         String userInput = sc.nextLine();
         userInput = userInput.toUpperCase();
         return userInput.charAt(0) == 'Y';

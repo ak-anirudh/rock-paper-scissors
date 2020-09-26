@@ -1,0 +1,26 @@
+= Assignment
+
+Assignment to solve Rock Paper Scissors
+
+== Open the Project
+
+You can open the maven project in IDE like Intellij-IDEA or Eclipse
+
+Run the project using JDK 11
+
+[source,bash]
+----
+mvn clean package
+----
+
+== Run the application &amp; Instructions to help play
+
+Once you run the RPSMain, you can enter the player's name and start playing the game.
+
+You can play the game n number of times before you choose to quit.
+
+== Note for players name
+
+Players name —&gt; a string without any spaces
+
+== By - @kesava_annadanam

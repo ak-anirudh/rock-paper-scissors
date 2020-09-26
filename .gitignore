@@ -150,3 +150,9 @@ buildNumber.properties
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.idea/**
+.settings/**
+.idea/compiler.xml
+.idea/compiler.xml
+.idea/vcs.xml
+.settings/org.eclipse.jdt.core.prefs

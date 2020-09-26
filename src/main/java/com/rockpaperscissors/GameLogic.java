@@ -72,7 +72,7 @@ public class GameLogic {
 
         System.out.println(" ---- INDIVIDUAL SCORES ---- ");
         System.out.println(realPlayer.getName()+"'s score ---> " +playerScore);
-        System.out.println("Computers score ---> " +computerScore);
+        System.out.println("Computer's score ---> " +computerScore);
         System.out.println("Number of games Tied ---> " +tieGame + "\n");
 
         System.out.println(" -------- RESULT -------- ");
